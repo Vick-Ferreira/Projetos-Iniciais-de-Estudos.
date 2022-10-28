@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        <title>Operadores Logicos</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Operadores Logicos</h1>
+        <button onclick="soma()">+</button>
+        <button onclick="subtração()">-</button>
+        <button onclick="multiplicação()">*</button>
+        <button onclick="divisão()">/</button>
+
+    <div id="output"></div>
+
+    <script>
+          
+    
+      var n1 = prompt("Digite um numero");
+      n1 = parseFloat(n1);
+     
+      escreve();
+
+      function escreve(){
+        var output = document.querySelector("#output");
+        output.innerHTML = n1;// texto que tem dentro da função no html
+         }
+
+         function soma(){
+            var n = prompt("Digite outro numero");
+            n = parseFloat(n);
+
+            n1 = n1 + n ; // IGUAL A N1 += N;
+            escreve();
+         }
+
+         function subtração(){
+            var n = prompt("Digite outro numero");
+            n = parseFloat(n);
+
+            n1 = n1 - n;//IGUAL A N1 -= N;
+            escreve();
+         }
+
+         function multiplicação(){
+            var n = prompt("Digite outro numero");
+            n = parseFloat(n);
+
+            n1 = n1 * n;//IGUAL A N1 *= N;
+            escreve();
+         }
+
+         function divisão(){
+            var n = prompt("Digite outro numero");
+            n = parseFloat(n);
+
+            n1 = n1 / n;//IGUAL A N1 /= N;
+            escreve();
+            
+         }
+
+    </script>
