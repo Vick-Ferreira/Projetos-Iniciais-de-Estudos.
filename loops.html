@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Loops</title>
+        <meta charset="utd-8">
+        
+
+    </head>
+    <body>
+        <h1> Loops</h1>
+        <script>
+
+            var N = prompt("Qual tabuada necessita? Digite um numero:");
+            N = parseFloat(N);
+            
+            
+            for(var i = 1; i <= 1000; i++){ // ++ soma +1 apos o comodando executado.
+             document.write( N + "x" + i + "=" + (N * i)  + "<br>");
+
+            
+            if(i % 10 === 0 ){
+                 document.write("<hr>");
+            } //linha aos os numeros multiplicados por 10
+        }
+       
+
+            document.write("Saiu do loop");
+        </script>
+    </body>
+</html>
