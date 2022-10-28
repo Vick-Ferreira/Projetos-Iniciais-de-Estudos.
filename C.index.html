@@ -1,0 +1,106 @@
+<html>
+<head>
+
+<title>Meu currículo</title>
+
+
+
+</head>
+
+<body>
+    <p>Vitoria Ferreira Pinto</p>
+        <ul>
+            <li><a href=""></a>QUEM SOU</li>
+            <li><a href="https://www.linkedin.com/in/vitoria-ferreira-ti/">LINKDIN</a></li>
+        
+        </ul>
+        <script>
+            //pergnta ao usuario, interativa
+             alert("Bem-Vindo");
+             var nome = prompt("Qual seu nome?");
+             alert("Bem-vindo," + nome);
+
+            // resolução de problema para o usuario
+
+           var x1 =  prompt("Digite um numero que a soma de  20");
+            x1 = parseInt(x1);
+
+           if(x1 === 10){
+             alert("Mandou bem!Parabens!");
+         }else{
+            alert("Errou, tente novamente!");
+         }
+
+        
+
+          
+        </script>
+
+        <form>
+            <p>Dados Pessoais</p>
+            <p> E-mail</p>
+            <input type="email" placeholder="vitoriaferreirap06@gmail.com">
+            <br>
+            <p>Idade</p>
+            <input type="number" min="24" max="24">
+            <br>
+            <p>Nascimento</p>
+            <input type="date" min="1998-04-06" max="1998-04-06">
+            <br>
+            <p>Sexo:</p>
+           
+            <input type="radio" name="sexo" value="F" checked>
+            <label>Feminino</label>
+            
+            <input type="radio" name="sexo" value="M">  
+            <label>Maculino</label>
+            <br>
+            <p>Estado:</p>
+            
+            <select >
+                
+                <option value="PR">Parana</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+
+            
+            </select>
+        
+            <p>Cidade:</p>
+
+            <select id="CIDADES">
+                <option value="C">Curitiba</option>
+                <option value="B">Boqueirão</option>
+                <option value="P">Piraquara</option>
+            </select>
+
+
+            <br>
+            <p>Conhecimento:</p>
+            <label> <input type="checkbox" name="Word" value="Word">Word</label><br>
+            <label> <input type="checkbox" name="Exel" value="Exel">Exel</label><br>
+            <label> <input type="checkbox" name="PowePoint" value="PowePoint">PowePoint</label><br>
+            <label> <input type="checkbox" name="HTML5" value="HTML5">HTML5 - BASICO</label><br>
+            <label> <input type="checkbox" name="Word" value="Word">CSS - BASICO</label><br>
+            <p>Esperiências:</p>
+            <textarea name="msg" cols="30" rows="30"></textarea>
+       
+
+            <button>Enviar</button>
+
+
+
+
+        </form>
+
+
+
+
+    
+</body>
+
+
+
+
+
+</html>
