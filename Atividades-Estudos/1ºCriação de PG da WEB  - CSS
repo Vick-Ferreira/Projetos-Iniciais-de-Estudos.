@@ -1,0 +1,92 @@
+
+body{
+    margin:1% 10% 1% 10%;
+}
+nav{
+    margin: 15px 0 30px 0;
+}
+.menu{
+    float: right;   
+}
+.menu li{
+    display: inline;  
+    padding: 10px; 
+}
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    
+}
+ .formlogin fieldset{
+     display:inline;
+     border-radius: 5px;
+
+}
+.cabeçalo-busca{
+    text-align: center;
+    margin: 25px 0 25px 0;
+    height: 50%;
+    
+}
+#txt, #log, #pass {
+    border-radius: 5px;
+}
+#txt{
+    
+    width: 30%;
+}
+.bnt, .busca{
+    border-radius: 5px;
+}
+
+
+.seleção-produtos li{
+    display: inline;
+    padding: 57px;
+    font-size: 20px;
+    text-transform:uppercase;
+    font-weight:bold;
+    
+}
+.ideia-principal {
+    background-image: url(../img/vista-de-cima-das-plantas-verdes-crescendo-fundo_1353-281.webp);
+    background-size:50%;
+    border-radius: 10px;
+    margin:5% 5% 5% 5%;
+    
+}
+ h1 {
+    font-size: 200%;
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+  
+    
+}
+.pri-paragrafo {
+    font-size:150%;
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 50%;
+    margin-top: 0px;
+
+}
+
+.galeria img {
+   
+    display:inline-block;
+    border: 2px solid yellow;
+    height: 20%;
+    width: 20%;
+    overflow: auto;
+  
+    background-color: rgb(119, 179, 179);
+   
+ 
+}
+
+
+img{
+    float: auto;
+}
