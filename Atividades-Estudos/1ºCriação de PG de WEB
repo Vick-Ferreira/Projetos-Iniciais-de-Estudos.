@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html leg="pr-br">
+
+<head>
+    <title>Tabacaria Semente de Girassol</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Vitoria">
+    <meta name="description" content=" lista de documentos">
+    <meta name="keywords" content="html,tecnologia">
+    <link rel="stylesheet" href="CSS/1estilo.css">
+
+
+</head>
+
+<body>
+
+    <header class="cabeçalo">
+        <nav id="cabeçalo-principal">
+            <ul class="menu">
+                <li><a href="#"> Inicio </a></li>
+                <li><a href="#"> Quem somos</a></li>
+                <li><a href="#">Carrinho</a> </li>
+            </ul>
+
+            <form action="#" method="post" class = formlogin>
+                <fieldset>
+                    <legend>Login</legend>
+                <label for="log">Usuario:</label>
+                <input type="text"name="text" id="log" autofocus>
+                <label for="pass">Senha</label>
+                <input type="password"name="pass" id="pass">
+                <input type="submit" value="Entrar" class="btn">
+                <br>
+ </fieldset>
+ </form>
+ </nav>
+ <br>
+        <div class="cabeçalo-busca">
+            
+            <form  clss="busca">
+                <label for="txt"></label>
+                <input type="txt" name="txt"  id="txt">
+                <input type="submit" value="BUSCAR" class="busca">
+               
+             
+       </form><br><br>
+    </div>
+     </header>
+    <section class="produtos">
+        <ul class="seleção-produtos">
+            <li><a href="#">Piteiras</a></li>
+            <li><a href="#">Sedas</a></li>
+            <li><a href="#">Bongs</a></li>
+            <li><a href="#">Esqueiros</a></li>
+            <li><a href="#">Tabacos</a></li>
+            <li><a href="#">Kit's</a></li>
+            <li><a href="#">Acessórios</a></li>
+        </ul>
+        <hr><br>
+    </section>
+    
+     
+     <section class="ideia-principal">
+         <h1>A Semente de Girassol preserva sua saúde!</h1>
+         <p class="pri-paragrafo">Sempre tentamos trazer aos nossos cliente os melhor produtos
+             com a melhor qualidade possivél, juntos podemos tentar diminuir
+             os danos a nossa saúde a ao ambiente em que vivemos, preservando nossos
+             pumões e a nossa natureza:<br> <b>USE, REUTILIZE, EXPLORE </b>.
+         </p>
+     </section>
+     <br>
+     <br>
+     
+
+     <section class="galeria">
+         <h2>Galeria</h2>
+         <article class="fotos1">
+             <img src="./imagens/20190417_115943.jpg" alt="foto produto">
+             <p class="text-title">Piteiras de Madeira - Yellow Fingher BIG</p>
+             <p class="text-obs">Essas piteiras mudaram sua vida, elas podem ser reutilizadas
+                 e ajudam a filtrar as inpurezas da carburaçõa.</p>
+             </article>
+             
+          <article class="fotos2">
+              <img src="./imagens/20190417_121453.jpg" alt="foto produto">
+              <p class="text-title">Piteiras de Vidro - SASSO</p>
+              <p class="text-obs">Piteira de vidro, 100% reutilizavéis, facéis de limpar e ajudam
+                  à filtrar a carburação</p>
+            </article>   
+
+            <article class="fotos3">
+                <img src="./imagens/20190417_123810.jpg" alt="foto produtos">
+                <p class="text-title">Tabaco Manga Rosa C/ piteiras</p>
+                <p class="text-obs">Tabaco limpo e leve amarelo,com um otimo
+                    kit contendo 24 piteiras descartaveis e 1 Smolking pequena Black
+                </p>
+
+            </article>
+               
+          <br>
+          <br>
+        <section>
+            <table>
+                <thead>
+                    <caption>Produtos Disponíveis</caption>
+                    <th>
+                    <tr>
+                        <td>Produtos</td>
+                        <td>Marca/Modelo</td>
+                        <td>Valores</td>
+                    </tr>
+                </th>
+                </thead>
+                <tfoot>
+
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Piteiras</td>
+                        <td>Vidro-Sasso</td>
+                        <td>7,00</td>
+                    </tr>
+
+                    <tr>
+                        
+                        <td>Madeira- Yellow Fingher CX C/ 10</td>
+                        <td>14,99</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Tabaco</td>
+                        <td>Manga Rosa - 250g</td>
+                        <td>13.99</td>
+
+
+                    </tr>
+                    <tr>
+                        
+                        <td>Velho Pimenta - 250g</td>
+                        <td>12,99</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>Seda</td>
+                        <td>Vidro</td>
+                        <td>20,00</td>
+
+
+
+                    </tr>
+
+                    <tr>
+                        <td>Bong</td>
+                        <td>Vinho - 2 Filtragens</td>
+                        <td>120,00</td>
+
+
+                    </tr>
+
+
+
+
+                </tbody>
+            </table>
+        </section>
+
+            <section class="fale-conosco">
+
+                <h2>Faça parte da familia!</h2> <br>
+                <p>Nosso principal objetivo é criar um vínculo com nossos cliente,
+                    queros ouvir suas duvidas e sugestões  e reclamações  e também experiencias para que assim possamos sempre
+                    melhorar nosso ida até você. Assim como ver seus momentos especiais com uma partinha de nós
+                
+                </p>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" nome="nome" id="NOME" autofocus>
+
+                    <label for="E-mail">E-mail</label>
+                    <input type="text" nome="E-mail" id="E-mail"><br>
+
+                    <label for="mensagem">Mensagem</label>
+                    <input type="mensagem" nome="mensagem" id="mensagem"><br>
+
+                    <input type="submit" value="Enviar">
+                </form>
+
+            </section>
+
+
+</section>
+
+
+<div id="contato">
+ <address>
+   <p>
+       <span>Endereço:</span>
+       Florianopolis-SC
+   </p>
+    <p>
+        <span>Telefone:</span>
+        9999-9999
+    </p>
+    <p> <span>E-mail:</span>
+        tabacariasementedegirassol@gmail.com
+      
+      <ul class="lista-contato">
+            <i class="fab fa-whatsapp-square"></i>
+        </ul>
+
+        
+</p>
+ </address>
+
+ 
+</div>
+
+</div>
+
+
+
+</body>
+</html>
